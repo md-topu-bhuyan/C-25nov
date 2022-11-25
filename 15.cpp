@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std ;
+
+int main()
+{
+	int x = 2 ;
+	
+	x += 2 ; /// x + y = 5 
+	cout <<x <<endl ;
+	
+	x -= 2 ;
+	cout <<x <<endl ;
+	
+	x *= 2 ;
+	cout <<x <<endl ;
+	
+	x /= 2 ;
+	cout <<x <<endl ;
+	
+	x %= 2 ;
+	cout <<x ;
+	
+	return 0 ;
+}
+
